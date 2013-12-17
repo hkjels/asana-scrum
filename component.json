@@ -1,0 +1,23 @@
+{
+  "name": "asana-scrum",
+  "author": "Henrik Kjelsberg",
+  "version": "0.0.1",
+  "styles": [
+    "asana-scrum.css"
+  ],
+  "scripts": [
+    "index.js"
+  ],
+  "dependencies": {
+    "component/cookie": "1.0.1",
+    "component/collection": "*",
+    "component/domify": "*",
+    "component/event": "*",
+    "component/querystring": "1.2.0",
+    "heavyk/format": "*",
+    "visionmedia/superagent": "*",
+    "hkjels/input-search": "*",
+    "hkjels/asana-oauthbutton": "*"
+  },
+  "remotes": []
+}

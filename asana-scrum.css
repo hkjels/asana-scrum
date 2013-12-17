@@ -1,0 +1,20 @@
+
+body {
+  background: rgb(206, 215, 224);
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
+
+.unauthorized {
+  text-align: center;
+}
+  .unauthorized button.asana {
+    top: 50%;
+    left: 50%;
+    margin-left: -80px;
+    position: absolute;
+  }
+
