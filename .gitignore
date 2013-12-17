@@ -1,3 +1,4 @@
 node_modules
 components
 public
+.DS_Store

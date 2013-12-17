@@ -12,12 +12,17 @@
     "component/cookie": "1.0.1",
     "component/collection": "*",
     "component/domify": "*",
+    "component/each": "*",
     "component/event": "*",
     "component/querystring": "1.2.0",
+    "driftyco/ionicons": "*",
+    "stagas/autocomplete": "*",
     "heavyk/format": "*",
     "visionmedia/superagent": "*",
+    "hkjels/story-model": "*",
+    "hkjels/task-model": "*",
+    "hkjels/storyboard-view": "*",
     "hkjels/input-search": "*",
     "hkjels/asana-oauthbutton": "*"
-  },
-  "remotes": []
+  }
 }

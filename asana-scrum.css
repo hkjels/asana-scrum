@@ -1,6 +1,12 @@
 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300);
+
 body {
   background: rgb(206, 215, 224);
+  background-image: linear-gradient(rgb(206, 215, 224), rgb(176, 185, 204));
+  background-attachment: fixed;
+  font-family: Open sans, Helvetica;
+  font-weight: 400;
 }
 
 #content {
@@ -12,9 +18,25 @@ body {
   text-align: center;
 }
   .unauthorized button.asana {
-    top: 50%;
+    top: 48rem;
     left: 50%;
     margin-left: -80px;
     position: absolute;
   }
+  .unauthorized .icon {
+    color: rgb(156, 176, 202);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+    font-size: 18rem;
+    margin-left: -7.5rem;
+    top: 30rem;
+    position: absolute;
+  }
+
+input[type=search] {
+  max-width: 20rem;
+}
+
+.magnifier.focus {
+  border-color: rgb(126, 155, 184);
+}
 
