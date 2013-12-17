@@ -1,0 +1,251 @@
+.spin {
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(2160deg);
+    transform: rotateZ(2160deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(2160deg);
+    -ms-transform: rotateZ(2160deg);
+    transform: rotateZ(2160deg);
+  }
+}
+
+.magnifier {
+  display: inline-block;
+  position: relative;
+  border-color: lightsteelblue;
+}
+
+.magnifier::after {
+  border: 4px solid;
+  border-color: inherit;
+  border-radius: 2px;
+  bottom: -8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  content: ' ';
+  display: block;
+  height: 18px;
+  position: absolute;
+  right: -3px;
+  -webkit-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  width: 8px;
+}
+
+.magnifier-input {
+  -webkit-appearance: none;
+  border-radius: 50px;
+  border: solid 5px;
+  border-color: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: 0;
+  padding: 4px 10px;
+  position: relative;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  width: 36px;
+}
+
+.magnifier-input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.magnifier-input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+.spin {
+  -webkit-animation-delay: .7s;
+  animation-delay: .7s;
+  -webkit-animation-duration: 1.8s;
+  animation-duration: 1.8s;
+  -webkit-animation-name: spin;
+  animation-name: spin;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(2160deg);
+    transform: rotateZ(2160deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateZ(2160deg);
+    -ms-transform: rotateZ(2160deg);
+    transform: rotateZ(2160deg);
+  }
+}
+
+.magnifier {
+  display: inline-block;
+  position: relative;
+  border-color: lightsteelblue;
+}
+
+.magnifier::after {
+  border: 4px solid;
+  border-color: inherit;
+  border-radius: 2px;
+  bottom: -8px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  content: ' ';
+  display: block;
+  height: 18px;
+  position: absolute;
+  right: -3px;
+  -webkit-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  width: 8px;
+}
+
+.magnifier-input {
+  -webkit-appearance: none;
+  border-radius: 50px;
+  border: solid 5px;
+  border-color: inherit;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 16px;
+  outline: 0;
+  padding: 4px 10px;
+  position: relative;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  width: 36px;
+}
+
+.magnifier-input::-webkit-input-placeholder {
+  opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+}
+
+.magnifier-input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+button.asana {
+  background: url(".//hkjels-asana-oauthbutton/./asana-oauth-button.png") left top no-repeat;
+  border: none;
+  height: 29px;
+  outline: none;
+  position: relative;
+  width: 159px;
+}
+
+button.asana:active {
+  top: 1px;
+}
+
+button.asana.alt {
+  background-image: url(".//hkjels-asana-oauthbutton/./asana-oauth-button-blue.png");
+}
+button.asana {
+  background: url(".//hkjels-asana-oauthbutton/./asana-oauth-button.png") left top no-repeat;
+  border: none;
+  height: 29px;
+  outline: none;
+  position: relative;
+  width: 159px;
+}
+
+button.asana:active {
+  top: 1px;
+}
+
+button.asana.alt {
+  background-image: url(".//hkjels-asana-oauthbutton/./asana-oauth-button-blue.png");
+}
+body {
+  background: rgb(206, 215, 224);
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
+
+.unauthorized {
+  text-align: center;
+}
+
+.unauthorized button.asana {
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+  position: absolute;
+}
+body {
+  background: rgb(206, 215, 224);
+}
+
+#content {
+  height: 100%;
+  width: 100%;
+}
+
+.unauthorized {
+  text-align: center;
+}
+
+.unauthorized button.asana {
+  top: 50%;
+  left: 50%;
+  margin-left: -80px;
+  position: absolute;
+}
